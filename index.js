@@ -1,10 +1,16 @@
 // Code your solution in this file.
-function lowerCaseDrivers(array, callback) {
-  const newArray = [];
+function lowerCaseDrivers(drivers) {
+  return drivers.map(function(name) {return name.toLowerCase();});
+}
 
-  for (const element of array) {
-    newArray.push(callback(element));
-  }
+function nameToAttributes () {
+  
+}
 
-  return newArray;
+function attributesToPhrase() {
+  
+}
+
+for (const name of drivers) {
+  newDrivers.push(callback(element));
 }
